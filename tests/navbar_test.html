@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+    </style>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        ul li a,
+        .dropbtn {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover,
+        li.dropdown {
+            display: block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            background-color: #0b5395;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: none;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #083763;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: #083763;
+        }
+        
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Montserrat';
+            font-size: smaller;
+        }
+        
+        .topnav a:hover {
+            background-color: #0b5395;
+            color: white;
+        }
+        
+        .topnav a.active {
+            background-color: #0b5395;
+            color: white;
+        }
+        
+        .topnav .icon {
+            display: none;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+            .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Inicio</a>
+            <div class="dropdown-content">
+                <a href="#">Funciones</a>
+                <a href="#">Objetivos</a>
+                <a href="#">Organigrama</a>
+            </div>
+        </li>
+        <!-- DROPDOWN -->
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Servicios</a>
+            <div class="dropdown-content">
+                <a href="#">Instructivos</a>
+                <a href="#">Formatos 1 y 2</a>
+                <a href="#">Seguimiento de Control Interno</a>
+            </div>
+        </li>
+        <a href="#contact">Auditoria Gubernamental</a>
+        <a href="#about">POA</a>
+        <a href="#about">Resúmenes Ejecutivos</a>
+        <a href="#about">Observaciones Frecuentes</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div style="padding-left:16px">
+        <h2>Responsive Topnav Example</h2>
+        <p>Resize the browser window to see how it works.</p>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
+
+</html>

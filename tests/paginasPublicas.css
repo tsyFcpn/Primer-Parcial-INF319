@@ -1,0 +1,249 @@
+/*ESTILOS NORMALES (para escritorios muy grandes)*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+
+/*Dimensiones del banner intitucional es 1280 x 190*/
+
+#banner {
+    width: 100%;
+    height: 100%;
+    background: #00529c url("/documents/1644283/1644318/Banner+DAI+-+Textura.png/32adb875-4cb7-d37f-66ff-2dddde83ad43?t=1648657796959");
+    background-repeat: no-repeat;
+    background-position: top left;
+    /*background-size: 100%;*/
+    border-bottom: 3px solid #bb2026;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+
+/*ocultando el buscador de liferay*/
+
+#portlet_com_liferay_portal_search_web_portlet_SearchPortlet {
+    display: none;
+}
+
+
+/*ocultando el pie de pagina*/
+
+#footer {
+    display: none;
+}
+
+
+/*Aca  Biene el color o el fondo que tendra el cuerpo*/
+
+
+/*.container-fluid-1280{
+    background-image: url(__);
+    background-size: 400px;
+    background: #000000;
+}*/
+
+#content .row {
+    background: #f2f2f2;
+    background-image: url(/documents/323854/324221/textura-tec3.png/e5be7a7d-a843-13ba-b5ae-a093a350cdf1?t=1559677160859);
+}
+
+#navigation .navbar-right {
+    margin-right: 75px;
+}
+
+
+/*.logo {margin-left: 25px;background: red;margin-bottom: 50px;}*/
+
+
+/*.logo img{width: 100%;height: 100%;margin-top: -15px;}*/
+
+#banner #navigationCollapse .navbar-blank>li>a {
+    color: #ffffff;
+}
+
+#banner #navigationCollapse .navbar-blank>li:hover>a,
+#banner #navigationCollapse .navbar-blank>li.hover>a,
+#banner #navigationCollapse .navbar-blank>li.active>a,
+#banner #navigationCollapse .navbar-blank>li .dropdown-menu .active>a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/*hover del menu y efecto de subrayado*/
+
+#banner #navigationCollapse .navbar-blank>li .dropdown-menu .active>a {
+    text-decoration: none;
+    background-color: #0051a0;
+}
+
+
+/*selecion de un menu*/
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus {
+    background-color: #0051a0;
+}
+
+#banner #heading .site-name {
+    color: #0051a0;
+    display: none;
+    background-color: transparent;
+}
+
+
+/*encabezados*/
+
+.enca-titulo {
+    background: #0051a0;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 16.5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px 2% 10px 2%;
+    font-weight: bold;
+}
+
+
+/*titulo obligados*/
+
+.portlet-title-text {
+    display: block;
+    text-align: center;
+    color: #32639e;
+    ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid #bb2026;
+    max-width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
+/* Tablets en horizonal y escritorios normales*/
+
+
+/*@media (min-width: 768px) and (max-width: 1199px) { */
+
+.titulo-mc {
+    font-weight: bold;
+    color: #bb2026
+}
+
+.subtitulo-mc {
+    font-weight: bold;
+    color: #32639e
+}
+
+
+/*@media (min-width: 768px) {*/
+
+@media only screen and (max-width: 2400px) and (min-width: 765px) {
+    .navbar-collapse {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+    }
+    .navbar-form {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .logo img {
+        height: 100% !important;
+    }
+    .navbar-right {
+        margin-right: 0px;
+    }
+    /*sin espacios en el contenido*/
+    .col-md-12 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #banner .user-personal-bar {
+        right: 110px;
+    }
+}
+
+
+/* Móviles en horizontal o tablets en vertical */
+
+
+/*@media (max-width: 767px) {*/
+
+@media only screen and (max-width: 764px) and (min-width: 481px) {
+    #banner {
+        background: #00529c;
+        padding: 20px;
+        padding-bottom: 20px;
+        background: #083763 url(/documents/1644283/5046868/ChakanaAzul.png/9c3e4358-3dfb-0198-1e0e-ba8dbe68e61e?t=1648659039620);
+        background-repeat: repeat;
+        background-size: 50px;
+    }
+    #banner #heading .site-name {
+        display: inline;
+        position: absolute;
+        top: 30px;
+        padding-right: 65px;
+        font-family: 'Montserrat';
+        padding-top: 15px;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    #banner .user-personal-bar .sign-in>a {
+        display: none;
+    }
+}
+
+
+/* Móviles en vertical */
+
+@media all and (max-width:480px) {
+    #banner {
+        background: #00529c;
+        padding: 20px;
+        padding-bottom: 20px;
+        background: #083763 url(/documents/1644283/5046868/ChakanaAzul.png/9c3e4358-3dfb-0198-1e0e-ba8dbe68e61e?t=1648659039620);
+        background-repeat: repeat;
+        background-size: 50px;
+    }
+    #banner #heading .logo.custom-logo {
+        display: none;
+    }
+    #banner #heading .logo.default-logo {
+        display: none;
+    }
+    #banner #heading .site-name {
+        display: inline;
+        position: absolute;
+        top: 15px;
+        padding-top: 30px;
+        padding-right: 65px;
+        font-size: 130%;
+        font-family: 'Montserrat';
+    }
+    #banner .user-personal-bar .sign-in>a {
+        display: none;
+    }
+    .navbar-toggle .icon-bar,
+    .management-bar-toggle .icon-bar {
+        background-color: white;
+        background: white;
+    }
+    #banner .navbar-toggle {
+        margin: 0px 0 0px 6px;
+    }
+    .dropdown-toggle {
+        height: 40px;
+    }
+    .enca-titulo {
+        font-size: 14.5px;
+    }
+}
