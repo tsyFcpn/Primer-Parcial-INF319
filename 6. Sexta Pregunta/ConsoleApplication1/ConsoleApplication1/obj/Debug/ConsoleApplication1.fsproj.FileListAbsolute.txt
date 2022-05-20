@@ -1,0 +1,10 @@
+C:\Users\tsintech\Desktop\Primer Parcial INF319\6. Sexta Pregunta\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\tsintech\Desktop\Primer Parcial INF319\6. Sexta Pregunta\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.XML
+C:\Users\tsintech\Desktop\Primer Parcial INF319\6. Sexta Pregunta\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\tsintech\Desktop\Primer Parcial INF319\6. Sexta Pregunta\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\tsintech\Desktop\Primer Parcial INF319\6. Sexta Pregunta\ConsoleApplication1\ConsoleApplication1\bin\Debug\FSharp.Core.dll
+C:\Users\tsintech\Desktop\Primer Parcial INF319\6. Sexta Pregunta\ConsoleApplication1\ConsoleApplication1\bin\Debug\FSharp.Core.xml
+C:\Users\tsintech\Desktop\Primer Parcial INF319\6. Sexta Pregunta\ConsoleApplication1\ConsoleApplication1\bin\Debug\es\FSharp.Core.resources.dll
+C:\Users\tsintech\Desktop\Primer Parcial INF319\6. Sexta Pregunta\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.fsprojResolveAssemblyReference.cache
+C:\Users\tsintech\Desktop\Primer Parcial INF319\6. Sexta Pregunta\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\tsintech\Desktop\Primer Parcial INF319\6. Sexta Pregunta\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
